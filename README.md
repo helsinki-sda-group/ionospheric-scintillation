@@ -1,3 +1,8 @@
+The bigger files/folders that do not fit in this repository:
+  - folder `fgi_aug_22_acc_dopp` and 
+  - the file `outsamplesA_1582_60.dat`
+can be found from `/wrk-vakka/group/grp-sdagroup/Arul`
+
 Procedure for computing the ionospheric scintillation parameters (S4 index and sigma-phi) using software GNSS Receiver
 
 General Procedure
