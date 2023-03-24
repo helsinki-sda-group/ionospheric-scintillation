@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: iono_sintef - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ganapath\AppData\Local\Temp\RSPA116.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/iono_sintef.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\personal files\ionosphere scintillation\scintillation data\Decoder\iono_sintef\main_iono.cpp"
+]
+Creating command line "cl.exe @C:\Users\ganapath\AppData\Local\Temp\RSPA116.tmp" 
+Creating temporary file "C:\Users\ganapath\AppData\Local\Temp\RSPA117.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/iono_sintef.pdb" /debug /machine:I386 /out:"Debug/iono_sintef.exe" /pdbtype:sept 
+".\Debug\main_iono.obj"
+]
+Creating command line "link.exe @C:\Users\ganapath\AppData\Local\Temp\RSPA117.tmp"
+<h3>Output Window</h3>
+Compiling...
+main_iono.cpp
+z:\personal files\ionosphere scintillation\scintillation data\decoder\iono_sintef\main_iono.cpp(2) : fatal error C1083: Cannot open include file: 'atomic': No such file or directory
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+iono_sintef.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
